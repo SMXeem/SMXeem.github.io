@@ -3,7 +3,7 @@
 Plain HTML and CSS, with no build step. The files:
 
 - `index.html`: all the page content
-- `styles.css`: the design, with light and dark themes that follow the visitor's system setting
+- `styles.css`: the design, always in the light theme
 - `assets/Sayed_Al_Zawad_Resume.pdf`: the resume behind the download buttons. Replace this file when the resume changes.
 
 ## Preview locally

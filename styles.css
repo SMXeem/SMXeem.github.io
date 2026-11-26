@@ -12,12 +12,7 @@
   --mono: "JetBrains Mono", ui-monospace, Consolas, monospace;
   --sans: "Inter", "Segoe UI", system-ui, sans-serif;
 }
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #0f1419; --band: #151c23; --ink: #e8edf2; --ink-2: #b7c2cd; --muted: #8a97a5;
-    --line: #26313c; --accent: #6fa8e8; --accent-ink: #9cc4f0; --accent-soft: #1a2a3b; --card: #18212a;
-  }
-}
+:root { color-scheme: light; }
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; scroll-padding-top: 72px; }
 body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.65 var(--sans); -webkit-font-smoothing: antialiased; }
@@ -37,7 +32,6 @@ a { color: inherit; }
 .btn-ghost { background: transparent; color: var(--ink); border-color: var(--line); }
 .btn-ghost:hover { background: var(--card); color: var(--ink); border-color: var(--ink-2); }
 .btn-small { padding: 7px 14px; font-size: 14px; }
-@media (prefers-color-scheme: dark) { .btn:not(.btn-ghost) { color: #0f1419; } }
 .link { color: var(--accent); font-weight: 600; text-decoration: none; font-size: 15px; }
 .link:hover { text-decoration: underline; }
 
