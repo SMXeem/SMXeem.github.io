@@ -36,3 +36,7 @@ git commit -am "Update portfolio"; git push
 **Vercel**: import the repo and choose "Other" as the framework. No build command is needed.
 
 Once it's live, add the link to your LinkedIn (Contact info, then Website), your BDJobs profile and your resume header.
+
+Auto-publish: ```powershell 
+git -C portfolio commit -am "Update portfolio"; git -C portfolio push
+```
