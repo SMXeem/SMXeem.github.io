@@ -14,7 +14,15 @@ python -m http.server 5510 --directory portfolio
 
 Then open http://localhost:5510
 
-## Put it online (free)
+## Publishing (automatic)
+
+Every push to `main` runs `.github/workflows/deploy.yml`, which publishes `index.html`, `styles.css` and `assets/` to https://smxeem.github.io in about a minute. Progress shows in the repo's **Actions** tab, and you can rerun it from there with **Run workflow**. This README is not published.
+
+```powershell
+git commit -am "Update portfolio"; git push
+```
+
+## Other free hosts
 
 **GitHub Pages** (gives a `smxeem.github.io` style address)
 1. Create a public repo named `<your-github-username>.github.io`.
