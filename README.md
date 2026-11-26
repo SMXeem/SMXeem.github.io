@@ -37,5 +37,7 @@ git commit -am "Update portfolio"; git push
 
 Once it's live, add the link to your LinkedIn (Contact info, then Website), your BDJobs profile and your resume header.
 
-Auto-publish: ```powershell 
-git -C portfolio commit -am "Update portfolio"; git -C portfolio push```
+Auto-publish: 
+```powershell 
+git -C portfolio commit -am "Update portfolio"; git -C portfolio push
+```
