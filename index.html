@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sayed Al Zawad · Senior Software Engineer (.NET & Angular)</title>
+<meta name="description" content="Sayed Al Zawad, Senior Software Engineer in Dhaka. 6+ years building enterprise systems with C#/.NET, ASP.NET Core, Angular, RabbitMQ and MassTransit.">
+<meta property="og:title" content="Sayed Al Zawad · Senior Software Engineer">
+<meta property="og:description" content="Enterprise systems with .NET, Angular and event-driven architecture.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231d4e89'/%3E%3Ctext x='50%25' y='56%25' text-anchor='middle' dominant-baseline='middle' font-family='Arial' font-weight='700' font-size='28' fill='white'%3ESZ%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap nav-inner">
+    <a href="#top" class="logo" aria-label="Home">SZ<span>.</span></a>
+    <nav aria-label="Main">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="btn btn-small" href="assets/Sayed_Al_Zawad_Resume.pdf" download>Resume</a>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero wrap">
+    <div class="hero-text">
+      <p class="eyebrow">Senior Software Engineer · Dhaka, Bangladesh</p>
+      <h1>Sayed Al Zawad</h1>
+      <p class="lead">I build enterprise systems with <strong>.NET</strong> and <strong>Angular</strong>, and connect services with <strong>RabbitMQ</strong> and <strong>MassTransit</strong> so they stay fast and reliable as they grow.</p>
+      <div class="cta">
+        <a class="btn" href="mailto:sayedxeem@gmail.com">Email me</a>
+        <a class="btn btn-ghost" href="assets/Sayed_Al_Zawad_Resume.pdf" download>Download resume</a>
+        <a class="link" href="https://www.linkedin.com/in/smxeem" target="_blank" rel="noopener">LinkedIn ↗</a>
+      </div>
+      <dl class="stats">
+        <div><dt>6+</dt><dd>years in production software</dd></div>
+        <div><dt>2</dt><dd>promotions since 2020</dd></div>
+        <div><dt>.NET 6–10</dt><dd>ASP.NET Core in production</dd></div>
+      </dl>
+    </div>
+
+    <figure class="arch" aria-labelledby="arch-cap">
+      <svg viewBox="0 0 420 330" role="img" aria-labelledby="arch-title arch-desc">
+        <title id="arch-title">How the systems I build fit together</title>
+        <desc id="arch-desc">An Angular web app calls an ASP.NET Core API. The API publishes events through MassTransit and RabbitMQ to background services. Services use SQL Server or PostgreSQL, with Redis as a cache, and SignalR pushes updates back to the browser.</desc>
+        <defs>
+          <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#7b8794"/></marker>
+        </defs>
+        <g class="n"><rect x="20" y="20" width="160" height="54" rx="10"/><text x="100" y="44">Angular app</text><text x="100" y="62" class="s">Reactive Forms</text></g>
+        <g class="n"><rect x="240" y="20" width="160" height="54" rx="10"/><text x="320" y="44">ASP.NET Core API</text><text x="320" y="62" class="s">MediatR · Swagger</text></g>
+        <g class="n hot"><rect x="130" y="138" width="160" height="54" rx="10"/><text x="210" y="162">RabbitMQ</text><text x="210" y="180" class="s">MassTransit · Outbox</text></g>
+        <g class="n"><rect x="20" y="256" width="160" height="54" rx="10"/><text x="100" y="280">Worker services</text><text x="100" y="298" class="s">Clean Architecture</text></g>
+        <g class="n"><rect x="240" y="256" width="160" height="54" rx="10"/><text x="320" y="280">SQL Server · Postgres</text><text x="320" y="298" class="s">Redis cache</text></g>
+        <path d="M180 38H236" class="e" marker-end="url(#ah)"/>
+        <path d="M240 58H184" class="e dash" marker-end="url(#ah)"/>
+        <path d="M290 74V105H230V134" class="e" marker-end="url(#ah)"/>
+        <path d="M170 192V222H100V252" class="e" marker-end="url(#ah)"/>
+        <path d="M370 74V252" class="e" marker-end="url(#ah)"/>
+        <text x="210" y="30" class="l">REST</text>
+        <text x="210" y="90" class="l">SignalR</text>
+        <text x="300" y="124" class="l" text-anchor="start">events</text>
+        <text x="362" y="200" class="l" text-anchor="end">EF Core · Dapper</text>
+      </svg>
+      <figcaption id="arch-cap">The shape of most systems I work on.</figcaption>
+    </figure>
+  </section>
+
+  <section id="about" class="band">
+    <div class="wrap two">
+      <h2 class="sec">About</h2>
+      <div class="prose">
+        <p>I'm a full-stack software engineer at Efficient Software Solutions, where I build and scale the <strong>QSmart</strong> enterprise platform. I own complex modules from API design to the screen, including the Form Builder and Procurement systems.</p>
+        <p>My work centres on clean, maintainable APIs, fast queries, and event-driven services that keep working as load grows. I apply Clean Architecture and Domain-Driven Design, review code, and mentor junior developers.</p>
+        <p>Outside the core stack I build with Next.js and automate business workflows with n8n.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="wrap section">
+    <h2 class="sec">Skills</h2>
+    <div class="skills">
+      <article class="skill">
+        <h3>Back end</h3>
+        <ul class="tags"><li>C#</li><li>.NET 6/8/10</li><li>ASP.NET Core Web API</li><li>Minimal APIs</li><li>Entity Framework Core</li><li>Dapper</li><li>LINQ</li><li>MediatR</li><li>FluentValidation</li><li>SignalR</li><li>Swagger / OpenAPI</li><li>JWT auth</li></ul>
+      </article>
+      <article class="skill">
+        <h3>Architecture</h3>
+        <ul class="tags"><li>Clean Architecture</li><li>Domain-Driven Design</li><li>CQRS</li><li>Microservices</li><li>Modular monolith</li><li>Outbox / Inbox</li><li>Repository pattern</li><li>Event-driven design</li></ul>
+      </article>
+      <article class="skill">
+        <h3>Messaging &amp; caching</h3>
+        <ul class="tags"><li>RabbitMQ</li><li>MassTransit</li><li>Redis</li></ul>
+      </article>
+      <article class="skill">
+        <h3>Front end</h3>
+        <ul class="tags"><li>Angular</li><li>Signals</li><li>Reactive Forms</li><li>Standalone components</li><li>TypeScript</li><li>Next.js</li><li>JavaScript</li><li>HTML5 &amp; CSS</li></ul>
+      </article>
+      <article class="skill">
+        <h3>Data</h3>
+        <ul class="tags"><li>SQL Server</li><li>PostgreSQL</li><li>MySQL</li><li>MongoDB</li><li>Elasticsearch</li><li>Stored procedures</li><li>Query tuning</li><li>EF migrations</li></ul>
+      </article>
+      <article class="skill">
+        <h3>DevOps &amp; tools</h3>
+        <ul class="tags"><li>Docker</li><li>Docker Compose</li><li>Git</li><li>Jira</li><li>n8n</li></ul>
+      </article>
+    </div>
+  </section>
+
+  <section id="experience" class="band">
+    <div class="wrap">
+      <h2 class="sec">Experience</h2>
+      <ol class="timeline">
+        <li>
+          <div class="when">2020 – now</div>
+          <div class="what">
+            <h3>Efficient Software Solutions Ltd <span>· Mirpur DOHS, Dhaka · Hybrid</span></h3>
+            <ul class="roles">
+              <li><b>Senior Software Engineer</b><time>May 2026 – Present</time></li>
+              <li><b>Associate Senior Software Engineer</b><time>Jan 2024 – Apr 2026</time></li>
+            </ul>
+            <ul class="points">
+              <li>Own complex modules end to end on the QSmart platform, including Form Builder and Procurement, with ASP.NET Core Web API and Angular.</li>
+              <li>Build event-driven communication between services with RabbitMQ and MassTransit, using the Outbox pattern.</li>
+              <li>Deliver real-time features with SignalR and Redis caching for frequently read data.</li>
+              <li>Structure services with Clean Architecture, MediatR and FluentValidation; containerise them with Docker.</li>
+              <li>Automate workflows and third-party integrations with n8n.</li>
+              <li>Review code, mentor junior developers and contribute to technical design.</li>
+            </ul>
+            <ul class="roles">
+              <li><b>Junior Software Engineer</b><time>Dec 2020 – Dec 2023</time></li>
+            </ul>
+            <ul class="points">
+              <li>Developed ERP modules end to end with .NET Core Web APIs and Angular front ends.</li>
+              <li>Implemented RESTful APIs and integrated third-party services.</li>
+              <li>Optimised SQL queries, stored procedures and code to reduce page load times; built RDLC reports.</li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <div class="when">2020</div>
+          <div class="what">
+            <h3>Appcilicon Technology <span>· Dhaka</span></h3>
+            <ul class="roles"><li><b>Junior Software Engineer</b><time>Jun 2020 – Nov 2020</time></li></ul>
+            <ul class="points"><li>Built and maintained a school management system with ASP.NET MVC, Entity Framework and jQuery.</li></ul>
+          </div>
+        </li>
+        <li>
+          <div class="when">2020</div>
+          <div class="what">
+            <h3>Portblix <span>· Dhaka</span></h3>
+            <ul class="roles"><li><b>Junior Software Engineer</b><time>Mar 2020 – May 2020</time></li></ul>
+            <ul class="points"><li>Fixed defects and built features for school management, point-of-sale and pension management systems in C#.</li></ul>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="work" class="wrap section">
+    <h2 class="sec">Selected work</h2>
+    <div class="cards">
+      <article class="card feature">
+        <p class="kicker">QSmart platform</p>
+        <h3>Form Builder</h3>
+        <p>Module of the QSmart enterprise platform that I own end to end, from API and data model to the Angular screens.</p>
+        <ul class="tags small"><li>ASP.NET Core</li><li>Angular</li><li>MediatR</li><li>FluentValidation</li></ul>
+      </article>
+      <article class="card feature">
+        <p class="kicker">QSmart platform</p>
+        <h3>Procurement</h3>
+        <p>Procurement system on the QSmart platform, built and maintained across back end and front end.</p>
+        <ul class="tags small"><li>ASP.NET Core</li><li>Angular</li><li>SQL Server</li></ul>
+      </article>
+      <article class="card">
+        <p class="kicker">Platform</p>
+        <h3>Event-driven services</h3>
+        <p>Asynchronous messaging between services with RabbitMQ and MassTransit, real-time updates over SignalR, and Redis caching.</p>
+        <ul class="tags small"><li>RabbitMQ</li><li>MassTransit</li><li>SignalR</li><li>Redis</li></ul>
+      </article>
+      <article class="card">
+        <p class="kicker">Automation</p>
+        <h3>Workflow automation</h3>
+        <p>Business workflows and third-party integrations automated with n8n.</p>
+        <ul class="tags small"><li>n8n</li><li>REST APIs</li></ul>
+      </article>
+      <article class="card">
+        <p class="kicker">2020 – 2023</p>
+        <h3>Web-based ERP</h3>
+        <p>ERP modules built end to end with .NET Core APIs and Angular, with tuned SQL and RDLC reporting.</p>
+        <ul class="tags small"><li>.NET Core</li><li>Angular</li><li>SQL Server</li><li>RDLC</li></ul>
+      </article>
+      <article class="card">
+        <p class="kicker">2020</p>
+        <h3>School &amp; retail systems</h3>
+        <p>School management, point-of-sale and pension management systems in ASP.NET MVC and C#.</p>
+        <ul class="tags small"><li>ASP.NET MVC</li><li>Entity Framework</li><li>jQuery</li></ul>
+      </article>
+    </div>
+  </section>
+
+  <section class="band">
+    <div class="wrap edu">
+      <div>
+        <h2 class="sec">Education</h2>
+        <ul class="plain">
+          <li><b>BSc, Computer Science &amp; Engineering</b><span>Dhaka City College · 2018</span></li>
+          <li><b>HSC, Science</b><span>Rangpur Govt. College · 2014</span></li>
+          <li><b>SSC, Science · Golden A+</b><span>Ulipur M.S. School and College · 2012</span></li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="sec">Training</h2>
+        <ul class="plain">
+          <li><b>ASP.NET MVC, Entity Framework &amp; .NET</b><span>BITM (SEIP), Dhaka · 3 months · 2018</span></li>
+          <li><b>LinkedIn Skill Assessments</b><span>.NET Framework · JavaScript · MySQL</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="wrap contact">
+    <h2>Let's work together.</h2>
+    <p>I'm open to senior .NET, full-stack and Angular roles, in Dhaka or remote.</p>
+    <div class="cta center">
+      <a class="btn" href="mailto:sayedxeem@gmail.com">sayedxeem@gmail.com</a>
+      <a class="btn btn-ghost" href="https://www.linkedin.com/in/smxeem" target="_blank" rel="noopener">LinkedIn ↗</a>
+      <a class="btn btn-ghost" href="assets/Sayed_Al_Zawad_Resume.pdf" download>Resume (PDF)</a>
+    </div>
+  </section>
+</main>
+
+<footer class="wrap foot">
+  <span>© <span id="yr">2026</span> Sayed Al Zawad</span>
+  <span>Built with plain HTML &amp; CSS</span>
+</footer>
+
+<script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
+</body>
+</html>
